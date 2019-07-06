@@ -252,11 +252,14 @@ a.social:hover {
   padding-top: 0;
 }
 
-
 #resume-section-title {
   text-transform:uppercase;
 }
 
 #resume-head-text {
   margin-bottom: 50px;
+}
+
+aside {
+  color: grey;
 }
