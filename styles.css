@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/ManhattanSkylineFromBrooklyn.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -81,6 +81,15 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+
+#hello {
+  border: #000000 3px solid;
+}
+
+.bg-list-item {
+  margin-bottom: 10px;
+}
+
 .location {
   background-color: #222;
   color: white;
