@@ -54,16 +54,18 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ManhattanSkylineFromBrooklyn.jpg') no-repeat top center ;
+  background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/ManhattanSkylineFromBrooklyn_Fotor.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+/* Code Source for linear-gradient: https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
+
 header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 100px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -74,17 +76,18 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  /* background-color: #efefef; */
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 
+/* 
 #hello {
   border: #000000 3px solid;
-}
+} */
 
 .bg-list-item {
   margin-bottom: 10px;
@@ -93,6 +96,9 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: white;
+  padding: 25px;
+  margin-top: 35px;
+  font-size: 1.5em;
 }
 .card {
   margin: 30px;
@@ -197,9 +203,9 @@ a.social:hover {
     color: white;
   }
 
-  main {
+  /* main {
     padding-top: 50px;
-  }
+  } */
 
   main p {
     line-height: 1.6em;
@@ -216,6 +222,7 @@ a.social:hover {
   h3 {
       color: maroon;
       letter-spacing: 2px;
+      margin-top: 50px;
 }
 
   .card-title {
@@ -231,7 +238,7 @@ a.social:hover {
 
 .gallery-item {
   max-width: 400px; 
-  padding: 15px;
+  padding: 10px;
  }
  
  .italic {
@@ -241,17 +248,15 @@ a.social:hover {
 
  /* resume.html */
 
-#resume-image {
-  border: solid 4px black;
-  border-radius: 50%;
+#main-resume {
+  padding-top: 0;
 }
 
-#resume-heading {
- background-color: #e2e2e2;
- padding: 5px;
-}
 
 #resume-section-title {
   text-transform:uppercase;
+}
 
-  /* contact.html */
+#resume-head-text {
+  margin-bottom: 50px;
+}
