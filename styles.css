@@ -141,6 +141,7 @@ ul.skills {
     width: 360px;
     height: 640px;
 }
+/* Code Source for Rollover: https://stackoverflow.com/questions/15468037/basic-css-hover-image-swap */
 
 .swap-on-hover__front-image{
   transition: opacity .5s linear;
