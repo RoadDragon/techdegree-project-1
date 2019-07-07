@@ -130,6 +130,23 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+#buddhadog{
+  background: url(images/buddha_dog_20161110_115504.jpg) no-repeat;
+  width: 436px;
+  height: 270px;
+}
+
+#buddhadog:hover {
+    background: url(images/20171030_120211-ANIMATION.gif) no-repeat;
+    width: 360px;
+    height: 640px;
+}
+
+.swap-on-hover__front-image{
+  transition: opacity .5s linear;
+  cursor: pointer;
+  opacity: 0;
+}
 
 footer {
   width: 100%;
