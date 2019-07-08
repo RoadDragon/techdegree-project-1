@@ -1,14 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <script>
-      $(function () {
-      $(document).scroll(function () {
-        var $nav = $(".navbar-fixed-top");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-      });
-    });
-  </script>
+
 
   <meta charset="utf-8">
   <title>Leslie Lello's Profile</title>
@@ -29,7 +22,7 @@ I then tried to add javascript to have a background added as I scroll down but t
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav navbar-fixed-top">
+    <div class="main-nav navbar-fixed-top" id="mynav">
         <ul class="nav">
           <li class="name">Leslie Lello</li>
           <li><a href="index.html">Home</a></li>

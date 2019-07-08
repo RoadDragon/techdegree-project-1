@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: rgba(0,0,0,0.5); !important;
-  transition: background-color 200ms linear;
-}
   
 body {
   margin: 0;
