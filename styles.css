@@ -18,7 +18,7 @@ a {
   color: #0499ff;
 }
 a:hover {
-  color: #ffbe33;
+  color: #FF9904;
 }
 
 /* Section Styles */
@@ -53,7 +53,7 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
-  color: white;
+  color: #FF9904;
   font-size: 1.2em;
 }
 .nav a:hover {
@@ -65,7 +65,7 @@ header {
   background: linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/ManhattanSkylineFromBrooklyn_Fotor.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 /* Code Source for linear-gradient: https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image */
 
@@ -226,7 +226,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #FF9904;
   }
 
   /* main {
