@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <script>
+      $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+
   <meta charset="utf-8">
   <title>Leslie Lello's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +22,14 @@
         } 
     } 
 </style> 
-code source: https://www.geeksforgeeks.org/targeting-only-firefox-with-css/ This did not fix extra space above nav bar in GitHub pages, but worked viewing page from local on Firefox. main-nav is positioned properly in Brave and Chrome without any extra code. Also tried padding-top and margin-top. used both main-nav selector and div.main-nav selector.-->
+code source: https://www.geeksforgeeks.org/targeting-only-firefox-with-css/ This did not fix extra space above nav bar in GitHub pages, but worked viewing page from local on Firefox. main-nav is positioned properly in Brave and Chrome without any extra code. Also tried padding-top and margin-top. used both main-nav selector and div.main-nav selector.
+
+I then tried to add javascript to have a background added as I scroll down but that is not working and way beyond what is required for this project so I am going to leave it as is. The JavaScript was pulled from these pages: https://jsfiddle.net/we9L9h2r/ and https://stackoverflow.com/questions/23706003/changing-nav-bar-color-after-scrolling -->
 
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
 
-    <div class="main-nav">
+    <div class="main-nav navbar-fixed-top">
         <ul class="nav">
           <li class="name">Leslie Lello</li>
           <li><a href="index.html">Home</a></li>

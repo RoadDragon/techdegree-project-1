@@ -2,6 +2,11 @@
 * { 
   box-sizing: border-box;
 }
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0,0,0,0.5); !important;
+  transition: background-color 200ms linear;
+}
   
 body {
   margin: 0;
@@ -46,7 +51,9 @@ a:hover {
 
 .nav .name {
   display: none;
-  font-size: 1.2em;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -54,7 +61,9 @@ a:hover {
 .nav a {
   transition: all .5s;
   color: #FF9904;
-  font-size: 1.2em;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px black;
 }
 .nav a:hover {
   color: #FF9904;
